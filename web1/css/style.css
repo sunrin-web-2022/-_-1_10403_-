@@ -253,11 +253,12 @@ input[name="tab_item"] {
 
 .table-group {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .banner {
     width: 100%;
+    max-width: 300px;
     margin: auto;
 }
 
@@ -341,4 +342,10 @@ footer{
     font-size: 12px;
     margin-top: 5px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+    .footer-content {
+        text-align: center;
+    }
 }
