@@ -91,9 +91,9 @@ ul {
 
 .nav-menu > li:hover .menu-title {
     font-weight: bold;
-    color: blue;
+    color: #007bff;
     text-decoration: none;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #007bff;
 }
 
 .nav-menu > li:hover .menu-detail1 {
@@ -103,7 +103,7 @@ ul {
 .menu-detail1 > li a:hover {
     text-decoration: none;
     font-weight: bold;
-    color: blue;
+    color: #007bff;
 }
 
 .detail:hover .menu-detail2 {
@@ -177,8 +177,8 @@ input[name="tab_item"] {
 /* 선택된 탭 스타일 */
 .tabs input:checked + .tab_item {
     background-color: white;
-    border-bottom: 2px solid blue;
-    color: blue;
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
 }
 
 .tab-item {
@@ -191,7 +191,7 @@ input[name="tab_item"] {
 }
 .tab-item:hover{
     font-weight: bold;
-    color: blue;
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -226,7 +226,7 @@ input[name="tab_item"] {
     margin: 0;
 }
 .footer-menu a:hover{
-    color: blue;
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -243,7 +243,7 @@ input[name="tab_item"] {
 }
 .table-time th{
     padding: 8px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #007bff;
 }
 .table-time td{
     padding: 10px 8px;
@@ -324,72 +324,17 @@ footer{
 }
 
 
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  opacity: 0;
-  z-index: 900;
+
+
+
+.card-h-text {
+    font-size: 14px;
+    padding: 10px 18px;
 }
 
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
+.card-body p{
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-top: 2px;
+    
 }
-
-.popup {
-  position: fixed;
-  width: 60%;
-  padding: 10px;
-  max-width: 500px;
-  border-radius: 10px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, .9);
-  /* "delay" the visibility transition */
-  -webkit-transition: opacity .5s, visibility 0s linear .5s;
-  transition: opacity .5s, visibility 0s linear .5s;
-  z-index: 1;
-}
-
-.popup:target {
-  visibility: visible;
-  opacity: 1;
-  /* cancel visibility transition delay */
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-
-.popup-close {
-  position: absolute;
-  padding: 10px;
-  max-width: 500px;
-  border-radius: 10px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, .9);
-}
-
-.popup .close {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  padding: 5px;
-  color: #000;
-  transition: color .3s;
-  font-size: 2em;
-  line-height: .6em;
-  font-weight: bold;
-}
-
-.popup .close:hover {
-  color: #00E5EE;
-}
-
-
