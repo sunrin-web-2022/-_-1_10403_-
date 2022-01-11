@@ -324,9 +324,6 @@ footer{
 }
 
 
-
-
-
 .card-h-text {
     font-size: 14px;
     padding: 10px 18px;
@@ -337,4 +334,11 @@ footer{
     margin-bottom: 6px;
     margin-top: 2px;
     
+}
+
+.card-btn {
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
 }
